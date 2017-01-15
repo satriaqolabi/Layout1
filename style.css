@@ -1,0 +1,473 @@
+
+
+	*{
+		padding: 0px;
+		margin: 0px;
+	}
+
+	@font-face{
+		src: url('font/Roboto-Regular.ttf');
+		font-family: 'Roboto-Regular';
+	}
+
+	.wrapper{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.clear{
+		clear: both;
+	}
+/*header*/
+	.header{
+		background: url(Image/4i9o5qqET.jpeg);
+		background-size: cover;
+		height: 700px;
+	}
+
+	.logo{
+		float: left;
+	}
+
+	.nav{
+		padding-top: 20px;
+	}
+
+	.nav ul{
+		float: right;
+		font-size: 18px;
+		padding-top: 20px;
+	}
+
+	.nav li, a{
+		list-style: none;
+		text-decoration: none;
+		float: left;
+		padding: 10px;
+		color: #fff;
+		font-family: sans-serif;
+		font-weight: 700;
+	}
+
+	.nav a:hover{
+		color: #B2B2B2;
+		transition: all .3s ease;
+	}
+
+	.nav li:last-child{
+		padding-right: 0px;
+	}
+
+
+	.left_content{
+		width: 35%;
+		float: left;
+		margin-top: 70px;
+		font-size: 130%;
+		color: #fff;
+		font-family: 'Roboto-Regular';
+	}
+
+	.left_content h4{
+		line-height: 20px;
+		font-size: 85%;
+		font-weight: normal;
+		margin-bottom: 20px;
+	}
+
+	button{
+		width: 130px;
+		padding: 15px;
+		border-radius: 5px;
+		border: 2px #353E43;
+		color: #fff;
+		background-color:  #353E43;
+		font-family: sans-serif;
+		font-size: 15px;
+		font-weight: 700;
+	}
+
+	button:hover{
+		border: 2px #1F2427;
+		background-color:  #1F2427;
+		transition: all .3s ease;
+		cursor: pointer;
+	}
+
+	.right_content{
+		float: right;
+	}
+/*header*/
+
+/*Section*/
+	.section{
+		text-align: center;
+	}
+
+	.section_title{
+		padding: 70px 70px 50px 70px;
+		font-size: 120%;
+		font-family: sans-serif;
+	}
+
+	.section_content{
+		width: 70%;
+		margin: 0 auto;
+		font-family: sans-serif;
+		font-size: 17px;
+		line-height: 23px;
+	}
+
+	.section_button{
+		width: 155px;
+		padding: 20px;
+		border-radius: 5px;
+		border: 2px #353E43;
+		color: #fff;
+		background-color:  #353E43;
+		font-family: sans-serif;
+		font-size: 15px;
+		font-weight: 700;
+		margin-top: 30px;
+	}
+
+	.section_colom{
+		background: url(Image/small-workplace-with-apple-gadgetsss.jpg);
+		height: 565px;
+		margin-top: 100px;
+		background-attachment: fixed;
+	}
+
+	.title h4{
+		padding-top: 50px; 
+		font-size: 240%;
+		font-family: sans-serif;
+		color: #fff;
+	}
+
+	.title h4:after{
+		content: "";
+		width: 85px;
+		height: 5px;
+		background-color: #fff;
+		display: block;
+		margin-top: 7px;
+	}
+
+	.row{
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	.col{
+		width: 30%;
+		margin-top: 50px;
+		background-color: #fff;
+		height: auto;
+		float: left;
+		margin: 2%;
+	}
+
+	.col:first-child{
+		margin-left: 0%;
+	}
+
+	.col:last-child{
+		margin-right: 0%;
+	}
+
+	.col h3{
+		padding-top: 15px;
+		font-family: sans-serif;
+		padding-bottom: 15px;
+
+	}
+
+	.cus{
+		padding: 30px;
+	}
+
+	.col img{
+		position: absolute;
+		margin-top: -50px;
+		box-shadow: rgba(0, 0, 0, 0.4) 10px -6px 4.26px 1.74px;
+	}
+
+	.art_title{
+		text-align: center; 
+		margin-top: 30px; 
+		margin-bottom: 15px; 
+		font-size: 140%; 
+		font-family: 'Roboto-Regular';
+	}
+
+	.content_art{
+		width: 100%;
+		text-align: center;
+	}
+
+	.col_art{
+		width: 22%;
+		float: left;
+		margin: 1.5%;
+	}
+
+	.col_art:first-child{
+		margin-left: 0;
+	}
+
+	.col_art:last-child{
+		margin-right: 0;
+	}
+
+	.pad1 img{
+		width: 100%; 
+		height: 200px;
+	}
+
+	.pad1{
+		position: relative;
+		overflow: hidden;
+		margin-left: 0px;
+		margin-right: 0px;
+		font-size: 30px;
+	}
+
+	.pad1:hover a{
+		visibility: visible;
+		opacity: 0.7;
+		background: rgba(93, 33, 95, 1);
+		text-align: center;
+		padding-top: 90px;
+		height: 100px;
+	}
+
+	.pad1 a{
+		text-align: center;
+		padding-top: 100px;
+		display: block;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		visibility: hidden;
+		transition:.2s ease;
+		text-decoration: none;
+		height: 90px;
+	}
+
+	.pad1 p{
+		font-size: 20px;
+		text-align: center;
+		font-family: sans-serif;
+		padding-top: 7px;
+	}
+
+	.art_button{
+		margin: 30px;
+	}
+
+	.comment{
+		background: url(Image/small-workplace-with-apple-gadgetsss.jpg);
+		height: 590px;
+		margin-top: 100px;
+		background-attachment: fixed;
+	}
+
+	.comment_title h1{
+		padding-top: 50px; 
+		font-size: 240%;
+		font-family: sans-serif;
+		color: #fff;
+	}
+
+	.comment_title h1:after{
+		content: "";
+		width: 85px;
+		height: 5px;
+		background-color: #fff;
+		display: block;
+		margin-top: 7px;
+		margin-bottom: 40px;
+	}
+
+	.comment_pad{
+		width: 45%;
+		background-color: #fff;
+		padding: 15px;
+		float: left;
+		margin: 1%;
+		height: 180px;
+	}
+
+	.comment_pad:first-child{
+		margin-left: 0;
+	}
+
+	.comment_pad:last-child{
+		margin-right: 0;
+	}
+
+	.comment_pad h2{
+		padding-bottom: 10px;
+		font-family: 'Roboto-Regular';
+		font-size: 20px;
+	}
+
+	.comment_pad img{
+		width: 40%;
+		float: left;
+	}
+
+	.comment_pad p{
+		font-family: sans-serif;
+		font-size: 15px;
+		line-height: 20px;
+		color: #989898;
+	}
+
+	.subs{
+		text-align: center;
+		padding-top: 130px;
+	}
+
+	.subs h3{
+		font-size: 180%;
+		color: #fff;
+		font-family: 'Roboto-Regular';
+	}
+
+	.textf{
+		width: 500px;
+		height: 40px;
+		padding: 11px;
+		margin-top: 10px;
+		border-radius: 20px;
+		border: 2px solid #ccc;
+		font-size: 110%;
+		position: absolute;
+		margin-left: -260px;
+		box-shadow: none;
+	}
+
+	.button_subs{
+		position: absolute;
+		color: #fff;
+		padding: 20px;
+		margin-left: 128px;
+		margin-top: 14px;
+		border-radius: 18px;
+		font-size: 15px; 
+		background-color: #FF00BF; 
+	}
+
+	.button_subs:hover{
+		background-color: #CC0099; 
+		transition: all .2s ease;
+	}
+/*section*/
+
+/*Footer*/
+
+	.footer{
+		background-color: #353E43;
+		height: 400px;
+	}
+
+	.content_footer{
+		text-align: center;
+		padding-top: 70px;
+		width: 30%;
+		margin: 0 auto;
+	}
+
+	.content_footer p{
+		padding-top: 15px;
+		color: #fff;
+		font-family: sans-serif;
+		font-size: 16px;
+		line-height: 28px;
+	}
+
+	.logo_f{
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 40px; 
+	}
+
+	.logo_f a{
+		text-align: center;
+		padding-left: 50px;
+		color: #000;
+		padding-top: 30px;
+	}
+
+	.logo_f a:first-child{
+		padding-left: 60px;
+	}
+
+	.logo_f a:last-child{
+		padding-right: 0px;
+	}
+
+	.fa-facebook:hover{
+		color: #4867AA;
+		transition: all .3s ease;
+	}
+
+	.fa-twitter:hover{
+		color: #1DA1F2;
+		transition: all .3s ease;
+	}
+
+	.fa-google-plus:hover{
+		color: #D62223;
+		transition: all .3s ease;
+	}
+
+	.right{
+		float: left;
+		padding-top: 27px;
+		color: #fff;
+		font-family: sans-serif;
+		font-size: 13px;
+		font-weight: 700;
+	}
+
+	.right a{
+		font-weight: 700;
+		padding: 0px;
+		float: right;
+	}
+
+	.copyright{
+		background-color: #262C2F;
+		height: 70px;
+	}
+
+	.left{
+		padding-top: 16px;
+		font-size: 15px;
+	}
+
+	.left ul{
+		float: right;
+	}
+
+	.left ul li{
+		float: left;
+		list-style: none;
+	}
+/*footer*/
+
+
+
+
+
+	
+
+
+
+
+
